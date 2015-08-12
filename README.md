@@ -7,8 +7,8 @@ meteor add theara:flow-router-breadcrumb
 
 ### Usage
 #### Breadcrumb register
+
 ```js
-// In router
 FlowRouter.route('/level1', {
     name: 'level1',
     action: function (params, queryParams) {
@@ -61,9 +61,10 @@ Breadcrumb.register({
     title: 'Level 4',
     parent: 'level3'
 });
-```js
+```
 
 #### Breadcrumb render
+
 ```js
 <!--Render with bootstrap 3-->
 {{> breadcrumb}}
