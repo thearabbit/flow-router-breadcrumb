@@ -1,12 +1,12 @@
 # Breadcrumb For Flow Router
 
-### Install
+## Install
 ```js
 meteor add theara:flow-router-breadcrumb
 ```
 
-### Usage
-#### Register
+## Usage
+### Register
 
 ```js
 // Level 1
@@ -61,7 +61,7 @@ FlowRouter.route('/level4/:level2Id/:level3Id', {
 });
 ```
 
-#### Render
+### Render
 
 ```js
 <!--Render with bootstrap 3-->
